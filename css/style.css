@@ -1,0 +1,52 @@
+body {
+  background-image: url("/img/dark-background.jpg");
+  background-size: cover;
+  background-color: blueviolet;
+  background-attachment: fixed;
+  color: aliceblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  height: 530px;
+  width: 380px;
+  background-color: rgb(201, 199, 197);
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+
+.screen {
+  width: 355px;
+  height: 60px;
+  margin: 1.5%;
+  padding: 1%;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.buttonsContainer {
+  width: 360px;
+  height: 430px;
+  margin: 2%;
+  background-color: darkgray;
+  border-radius: 10px;
+}
+
+.buttons {
+  width: 70px;
+  height: 70px;
+  margin: 2%;
+  border-radius: 15px;
+  font-size: 25px;
+}
+
+#zero {
+  width: 160px;
+  height: 70px;
+  margin: 2%;
+  border-radius: 15px;
+  font-size: 25px;
+}
