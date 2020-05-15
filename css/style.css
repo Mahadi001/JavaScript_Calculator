@@ -1,5 +1,5 @@
 body {
-  background-image: url("/img/dark-background.jpg");
+  background-image: url("../img/dark-background.jpg");
   background-size: cover;
   background-color: blueviolet;
   background-attachment: fixed;
@@ -28,6 +28,7 @@ body {
 }
 
 .buttonsContainer {
+  margin: auto;
   width: 360px;
   height: 430px;
   margin: 2%;
@@ -41,12 +42,28 @@ body {
   margin: 2%;
   border-radius: 15px;
   font-size: 25px;
+  float: left;
+}
+
+#diffDiv {
+  float: left;
+  width: 250px;
+  margin: 1%;
 }
 
 #zero {
-  width: 160px;
+  position: relative;
+  width: 150px;
   height: 70px;
   margin: 2%;
+  border-radius: 15px;
+  font-size: 25px;
+}
+
+#equalStyle {
+  margin: 2%;
+  width: 70px;
+  height: 150px;
   border-radius: 15px;
   font-size: 25px;
 }
